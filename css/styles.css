@@ -5,4 +5,18 @@ header {
   section {
     padding: 150px 0;
   }
+
+  .custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(104, 249, 173, .9)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
   
+  .custom-toggler.navbar-toggler {
+    border-color: rgb(84, 250, 252);
+    border-width: 2px;
+
+  } 
+
+  .nav-link {
+    text-decoration: underline;
+    text-decoration-color: #68f9ad;
+  }
