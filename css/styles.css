@@ -20,3 +20,13 @@ header {
     text-decoration: underline;
     text-decoration-color: #68f9ad;
   }
+
+  a.fab {
+    color: inherit;
+
+  }
+
+  a.fas {
+    color: inherit;
+
+  }
