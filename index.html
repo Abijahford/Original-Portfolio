@@ -57,9 +57,9 @@
           <img style="border: 2px solid #68f9ad;" class="img-responsive shadow-lg p-3 mb-5 bg-dark rounded" src="images/afMe.JPG" alt="Image of Abijah">
       </div>
       <div class="d-flex justify-content-around container col-12 ">
-        <a href="https://www.linkedin.com/in/abijah-ford-68016a144/" style="font-size: 48px;" class="fab fa-linkedin"></a>
-        <a href="https://www.github.com/Abijahford" style="font-size: 48px;" class="fab fa-github"></a>
-        <a href="images/Internet Programming.pdf" style="font-size: 48px;" class="fas fa-file" download></a>
+        <a href="https://www.linkedin.com/in/abijah-ford-68016a144/" style="font-size: 48px;" class="fab fa-linkedin" data-toggle="popover" title="LinkedIn" data-content="Press on Icon to navigate to my LinkedIn page."></a>
+        <a href="https://www.github.com/Abijahford" style="font-size: 48px;" class="fab fa-github" data-toggle="popover" title="GitHub" data-content="Press on Icon to navigate to my GitHub page."></a>
+        <a href="images/Internet Programming.pdf" style="font-size: 48px;" class="fas fa-file" data-toggle="popover" title="Resume" data-content="Press on Icon to download a PDF of my Resume." download></a>
       </div>
   </header>
 
@@ -112,6 +112,13 @@
     </div>
     <!-- /.container -->
   </footer>
+
+  <!-- Popover -->
+  <script>
+  $(document).ready(function(){
+  $('[data-toggle="popover"]').popover();   
+  });
+  </script>
 
   <!-- Bootstrap core JavaScript -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
