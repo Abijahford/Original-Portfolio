@@ -10,6 +10,8 @@
 
   <title>Abijah Ford's - Web Portfolio.</title>
 
+  <link rel = "icon" href = "./images/afFavicon.PNG" type = "image/x-icon">
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -25,7 +27,7 @@
 <body id="page-top">
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top navvy" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
         <img src="images/afLogo.PNG" alt="Abijahs Logo" ></a>
@@ -54,23 +56,24 @@
           <h2 class="d-flex justify-content-center" style="color: #343A40;">Hello! Welcome to my webpage.</h2>
           <hr style="background-color: rgb(84, 250, 252); height: 2px;">
           <div class="d-flex justify-content-center row mb-3">
-            <ul class="col-4">
+            <h5 class="col-4" style="text-align: right; color: #484e53;">Interests:</h5>
+            <ul class="col-5">
               <li class="list">Computer Science</li>
               <li class="list">Internet Programming</li>
-              <li class="list">Student</li>
+              <li class="list">Learning</li>
               <li class="list">Cryptocurrency</li>
               <li class="list">Mycology</li>
             </ul>
-            <div id="demo" class="carousel slide col-6" style="width: 210px;" data-ride="carousel">
+            <!-- <div id="demo" class="carousel slide col-6" style="width: 210px;" data-ride="carousel">
 
-              <!-- Indicators -->
+              
               <ul class="carousel-indicators">
                 <li data-target="#demo" data-slide-to="0" class="active"></li>
                 <li data-target="#demo" data-slide-to="1"></li>
                 <li data-target="#demo" data-slide-to="2"></li>
               </ul>
             
-              <!-- The slideshow -->
+              
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img src="/images/afBeach.jpg" alt="Beach Abijah">
@@ -82,12 +85,12 @@
                   <img src="/images/afOcean.JPG" alt="Ocean Abijah">
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
       
-      <div class="d-flex justify-content-around container col-12 mb-3 ">
+      <div class="d-flex justify-content-around container col-md-6 mb-3 ">
         <a href="https://www.linkedin.com/in/abijah-ford-68016a144/" style="font-size: 48px;" class="fab fa-linkedin" title="LinkedIn" ></a>
         <a href="https://www.github.com/Abijahford" style="font-size: 48px;" class="fab fa-github" title="GitHub"></a>
         <a href="images/New Tech Resume.pdf" style="font-size: 48px;" class="fas fa-file" title="Resume"></a>
@@ -99,7 +102,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h2>About me:</h2>
+          <h2 style="color: #484e53; text-align: center;">About me:</h2>
           <hr style="background-color: rgb(84, 250, 252); height: 2px;">
           <p class="lead">I was born and raised in Roseville, Minnesota. I feel so close to both nature and the city, which is where my love for both came from.
           The only thing holding me back from leaving this tundra is my family, I value and cherish every moment with them. 
@@ -119,7 +122,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h2>What I have to offer:</h2>
+          <h2 style="color: #484e53; text-align: center;">What I have to offer:</h2>
           <hr style="background-color: rgb(84, 250, 252); height: 2px;">
           <p class="lead">I work well both independently and in a group setting. I am committed to allowing not only myself to grow but allowing others to do the same. I pride myself on being a highly adaptable individual;
              when faced with obstacles I have the skills to get around them. I have a great deal of enthusiasm for this profession, and I like to encourage a positive mindset in others as well.</p>
@@ -193,16 +196,27 @@
   </section>
 
   <section id="contact">
-    <div class="container">
+    <div class="row" style="position: top;">
+      <div class="col-4" style="text-align: right; font-size: 24px; color: #484e53;">
+        <a class="fa fa-arrow-up js-scroll-trigger" aria-hidden="true" href="#page-top"></a>
+      </div>
+      <div class="col-4">
+        <a class=" js-scroll-trigger" style="color: #484e53;" href="#page-top">Click Here, I will take you to the top.</a>
+      </div>
+      <div class="col-4" style="text-align: left; font-size: 24px; color: #484e53;">
+        <a class="fa fa-arrow-up js-scroll-trigger" aria-hidden="true" href="#page-top"></a>
+      </div>
+    </div>
+    <div class="container"  style="padding: 60px;">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h2>Contact me:</h2>
+          <h2 style="color: #484e53; text-align: center;">Contact me</h2>
           <hr style="background-color: rgb(84, 250, 252); height: 2px;">
-          <p class="lead">If you would like to get ahold of me, hit me up via email/text/call by clicking the buttons below.</p>
+          <p class="lead" style="text-align: center;">If you would like to get ahold of me, hit me up via email/text/call by clicking the buttons below.</p>
           <div class="d-flex justify-content-around container col-12">
-            <a href="mailto: ford.abijah@gmail.com" style="font-size: 48px;" class="fa fa-envelope" title="Email"></a>
-            <a href="sms:651-468-9313" style="font-size: 48px;" class="fas fa-sms" title="Text"></a>
-            <a href="tel:651-468-9313" style="font-size: 48px;" class="fas fa-phone-volume" title="Call"></a>
+            <a href="mailto: ford.abijah@gmail.com" style="font-size: 48px; color: #484e53;" class="fa fa-envelope" title="Email"></a>
+            <a href="sms:651-468-9313" style="font-size: 48px; color: #484e53;" class="fas fa-sms" title="Text"></a>
+            <a href="tel:651-468-9313" style="font-size: 48px; color: #484e53;" class="fas fa-phone-volume" title="Call"></a>
           </div>
         </div>
       </div>
@@ -210,9 +224,9 @@
   </section>
 
   <!-- Footer -->
-  <footer class="py-5 bg-dark">
+  <footer class="py-5 bg-dark navvy">
     <div class="container">
-      <p style="color: rgb(84, 250, 252);" class="footah m-0 text-center">Abijah Ford - Proudly located in Roseville, Minnesota. </p>
+      <h5 style="color: rgb(84, 250, 252);" class="footah m-0 text-center">Abijah Ford - Proudly located in Roseville, Minnesota. </h5>
     </div>
     <!-- /.container -->
   </footer>

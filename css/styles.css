@@ -1,58 +1,60 @@
 header {
-    padding: 156px 0 100px;
-  }
-  
-  section {
-    padding: 150px 0;
-  }
+  padding: 156px 0 100px;
+}
 
-  .custom-toggler .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(104, 249, 173, .9)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-  }
-  
-  .custom-toggler.navbar-toggler {
-    border-color: rgb(84, 250, 252);
-    border-width: 2px;
+section {
+  padding: 35px 0;
+}
 
-  } 
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(104, 249, 173, .9)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
 
-  .nav-link {
-    text-decoration: underline;
-    text-decoration-color: #68f9ad;
-  }
+.custom-toggler.navbar-toggler {
+  border-color: rgb(84, 250, 252);
+  border-width: 2px;
+}
 
-  .bold {
-    text-decoration: underline;
-    text-decoration-color: #68f9ad;
-  }
+.nav-link {
+  text-decoration: underline;
+  text-decoration-color: #68f9ad;
+}
 
-  a.fab {
-    color: inherit;
-  }
+.bold {
+  text-decoration: underline;
+  text-decoration-color: #68f9ad;
+}
 
-  a.fas {
-    color: inherit;
-  }
+a.fab {
+  color: inherit;
+}
 
-  a.fa {
-    color: inherit;
-  }
+a.fas {
+  color: inherit;
+}
 
-  ul {
-    list-style: none;
-  }
+a.fa {
+  color: inherit;
+}
 
-  .list::before {
-    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-    color: #68f9ad; /* Change the color */
-    font-weight: bold; /* If you want it to be bold */
-    display: inline-block; /* Needed to add space between the bullet and the text */
-    width: 1em; /* Also needed for space (tweak if needed) */
-    margin-left: -1em; /* Also needed for space (tweak if needed) */
-  }
+ul {
+  list-style: none;
+}
 
-  .footah {
-    text-decoration: underline;
-    text-decoration-color: #68f9ad;
-  }
-  
+.list::before {
+  content: '\2022'; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #68f9ad; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+.footah {
+  text-decoration: underline;
+  text-decoration-color: #68f9ad;
+}
+
+.navvy {
+  background: url('../images/Dinpattern\ Stripe.gif');
+}
