@@ -46,6 +46,9 @@
             <a style="color: rgb(84, 250, 252);" class="nav-link js-scroll-trigger" href="#contact">Contact</a>
           </li>
           <li class="nav-item">
+            <a style="color: rgb(84, 250, 252);" class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
             <a style="color: rgb(84, 250, 252);" class="nav-link" href="http://abijahford.info/blog/">Blog</a>
           </li>
         </ul>
@@ -56,8 +59,9 @@
   <header class="container-fluid bg-light text-dark mt-4 mx-auto">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h2 class="d-flex justify-content-center" style="color: #343A40;">Hello! Welcome to my webpage.</h2>
+          <h2 style="color: #343A40; align-items: center; text-align: center; white-space: nowrap;">Hello! Welcome to my webpage.</h2>
           <hr style="background-color: rgb(84, 250, 252); height: 2px;">
+          <p class="navvy footah badge col-12 pb-2" style="color: rgb(84, 250, 252);">Blog Coming Soon!</p>
           <div class="d-flex justify-content-center row mb-3">
             <h5 class="col-4" style="text-align: right; color: #484e53;">Interests:</h5>
             <ul class="col-5">
@@ -93,12 +97,22 @@
         </div>
       </div>
       
-      <div class="d-flex justify-content-around container col-md-6 mb-3 ">
-        <a href="https://www.linkedin.com/in/abijah-ford-68016a144/" style="font-size: 48px;" class="fab fa-linkedin" title="LinkedIn" ></a>
-        <a href="https://www.github.com/Abijahford" style="font-size: 48px;" class="fab fa-github" title="GitHub"></a>
-        <a href="images/New Tech Resume.pdf" style="font-size: 48px;" class="fas fa-file" title="Resume"></a>
+
+      <p class="d-flex justify-content-center pb-3">All of the icons above and below are clickable.</p>
+      <div class="row justify-content-around">
+        <div class="col-sm-1 col-2 col-md-1 col-lg-1">
+          <a href="https://www.linkedin.com/in/abijah-ford-68016a144/" style="font-size: 48px;" class="fab fa-linkedin" title="LinkedIn" ></a>
+          <span style="font-size: small;">LinkedIn</span>
+        </div>
+        <div class="col-sm-1 col-2 col-md-1 col-lg-1">
+          <a href="https://www.github.com/Abijahford" style="font-size: 48px;" class="fab fa-github" title="GitHub"></a>
+          <span style="font-size: small;">GitHub</span>
+        </div>
+        <div class="col-sm-1 col-2 col-md-1 col-lg-1">
+          <a href="images/New Tech Resume.pdf" style="font-size: 48px;" class="fas fa-file" title="Resume"></a>
+          <span style="font-size: small;">Resume</span>
+        </div>
       </div>
-      <p class="d-flex justify-content-center">All of the icons above and below are clickable.</p>
   </header>
 
   <section id="about">
@@ -130,23 +144,28 @@
           <p class="lead">I work well both independently and in a group setting. I am committed to allowing not only myself to grow but allowing others to do the same. I pride myself on being a highly adaptable individual;
              when faced with obstacles I have the skills to get around them. I have a great deal of enthusiasm for this profession, and I like to encourage a positive mindset in others as well.</p>
 
+             <br  id="projects"> 
+             <br>
+             <h2 style="color: #484e53; text-align: center;">Passion Projects:</h2>
+             <hr style="background-color: rgb(84, 250, 252); height: 2px;">
           <!-- Project Card Carousel-->
           <div id="carousel-example-multi" class="carousel slide carousel-multi-item v-2" data-ride="carousel">
 
           <!--Controls-->
           <div class="controls-top d-flex justify-content-around">
             <a class="btn-floating" href="#carousel-example-multi" data-slide="prev"><i
-            class="fas fa-chevron-left"></i></a>
+            class="fas fa-chevron-left" style="color: #68f9ad;"></i></a>
             <a class="btn-floating" href="#carousel-example-multi" data-slide="next"><i
-            class="fas fa-chevron-right"></i></a>
+            class="fas fa-chevron-right" style="color: #68f9ad;"></i></a>
           </div>
           <!--/.Controls-->
-
+          
           <!-- Indicators -->
           <ol class="carousel-indicators">
             <li data-target="#carousel-example-multi" data-slide-to="0" class="active"></li>
             <li data-target="#carousel-example-multi" data-slide-to="1"></li>
             <li data-target="#carousel-example-multi" data-slide-to="2"></li>
+            <li data-target="#carousel-example-multi" data-slide-to="3"></li>
           </ol>
           <!--/.Indicators-->
         
@@ -160,7 +179,7 @@
                   <div class="card-body">
                     <h4 class="card-title font-weight-bold">Living Word Church & WOM (Feb. 2021)</h4>
                     <p class="card-text">I took on this gig as a chance to expand my knowledge in the web space, WordPress is an awesome CMS.</p>
-                    <a href="https://lwcwom.com" class="btn btn-primary btn-md btn-rounded">Visit Site</a>
+                    <a href="https://lwcwom.com" class="btn btn-md btn-rounded navvy footah" style="color: rgb(84, 250, 252);">Visit Site</a>
                   </div>
                 </div>
               </div>
@@ -173,7 +192,7 @@
                   <div class="card-body">
                     <h4 class="card-title font-weight-bold">Drumkit - JavaScript</h4>
                     <p class="card-text">This project was very enjoyable, working on something you enjoy while learning could'nt get any better. Possibilities with JS are endless!</p>
-                    <a href="https://abijahford.github.io/DrumKit" class="btn btn-primary btn-md btn-rounded">Visit Site</a>
+                    <a href="https://abijahford.github.io/DrumKit" class="btn btn-md btn-rounded navvy footah" style="color: rgb(84, 250, 252);">Visit Site</a>
                   </div>
                 </div>
               </div>
@@ -186,7 +205,18 @@
                   <div class="card-body">
                     <h4 class="card-title font-weight-bold">Clock - JavaScript and CSS</h4>
                     <p class="card-text">A simple clock, who knew such a small scale project could possess a large scale of knowledge.</p>
-                    <a href="https://abijahford.github.io/jsClock" class="btn btn-primary btn-md btn-rounded">Visit Site</a>
+                    <a href="https://abijahford.github.io/jsClock" class="btn btn-md btn-rounded navvy footah" style="color: rgb(84, 250, 252);">Visit Site</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="col-12">
+                <div class="card mb-2">
+                  <div class="card-body">
+                    <h4 class="card-title font-weight-bold">Blog - HTML, CSS(Bootstrap), JS</h4>
+                    <p class="card-text">A blog page  where I will documenting my journey about my personal life, programming, travel and much more.</p>
+                    <a href="https://abijahford.info/blog/" class="btn btn-md btn-rounded navvy footah" style="color: rgb(84, 250, 252);">Visit Site</a>
                   </div>
                 </div>
               </div>
