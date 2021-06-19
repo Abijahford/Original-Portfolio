@@ -21,7 +21,41 @@
   <!-- Font awesome for icons -->
   <script src="https://kit.fontawesome.com/8c75fe1e0f.js" crossorigin="anonymous"></script>
 
-  <script data-ad-client="ca-pub-2640840738224879" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+  <script>
+  // Load google charts
+  google.charts.load('current', {'packages':['corechart']});
+  google.charts.setOnLoadCallback(drawChart);
+
+// Draw the chart and set the chart values
+function drawChart() {
+  var data = google.visualization.arrayToDataTable([
+    ['Task', 'Level of interest'],
+    ['Computer Science', 2],
+    ['Internet Programming', 4],
+    ['Learning', 2],
+    ['Cryptocurrency', 2],
+    ['Gym', 2]
+  ]);
+
+  // Optional; add a title and set the width and height of the chart
+    var options = {'title':'Interests', 'width':300, 'height':250,'slices': {
+            0: { color: 'rgb(84, 250, 252)' },
+            1: { color: '#343A40' },
+            2: { color: 'rgb(84, 250, 252)' },
+            3: { color: '#68f9ad' },
+            4: { color: '#343A40' }
+          },
+          'backgroundColor': '#f8f9fa'
+ };
+
+  // Display the chart inside the <div> element with id="piechart"
+    var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+    chart.draw(data, options); 
+  } 
+  </script>
+
 </head>
 
 <body id="page-top" class="font">
@@ -59,15 +93,14 @@
         <div class="col-lg-8 mx-auto">
           <h2 style="color: #343A40; align-items: center; text-align: center;">Hello! Welcome to my webpage.</h2>
           <hr style="background-color: rgb(84, 250, 252); height: 2px;">
-          <div class="d-flex justify-content-center row mb-3">
-            <h5 class="col-4" style="text-align: right; color: #484e53;">Interests:</h5>
-            <ul class="col-5">
-              <li class="list">Computer Science</li>
-              <li class="list">Internet Programming</li>
-              <li class="list">Learning</li>
-              <li class="list">Cryptocurrency</li>
-              <li class="list">Mycology</li>
-            </ul>
+
+          <div class="d-flex justify-content-around">
+            <div id="piechart">
+          
+            </div>
+            <div>
+              <img src="images/afPhoto.JPG" style="object-fit:cover;" class="rounded">
+            </div>
           </div>
         </div>
       </div>
@@ -98,7 +131,7 @@
           <ul>
             <li class="list">Hiking, and photography - I often bring my camera with to capture the wonders of mother nature.</li>
             <li class="list">Weightlifting - I enjoy a good challenge mentally and physically.</li>
-            <li class="list">Learning - I love love love to learn new things, whether in literature or documentary or in programming. <strong class="bold">LOVE LEARNING!</strong></li>
+            <li class="list">Learning - I love to learn new things in many forms, whether in literature, documentary or in programming.</li>
             <li class="list">Games - Everyone deserves a bit of leisure, grab a friend to play board games with.</li>
           </ul> 
         </div>
