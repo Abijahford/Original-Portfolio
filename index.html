@@ -40,7 +40,7 @@ function drawChart() {
   ]);
 
   // Optional; add a title and set the width and height of the chart
-    var options = {'title':'Interests', 'width':300, 'height':250,'slices': {
+    var options = {'title':'Interests', 'width':275, 'height':250,'slices': {
             0: { color: 'rgb(84, 250, 252)' },
             1: { color: '#343A40' },
             2: { color: 'rgb(84, 250, 252)' },
@@ -48,7 +48,7 @@ function drawChart() {
             4: { color: '#343A40' }
           },
           'backgroundColor': '#f8f9fa',
-          'position': 'bottom'
+          'legend': {position: 'bottom'}
  };
 
   // Display the chart inside the <div> element with id="piechart"
