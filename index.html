@@ -47,7 +47,8 @@ function drawChart() {
             3: { color: '#68f9ad' },
             4: { color: '#343A40' }
           },
-          'backgroundColor': '#f8f9fa'
+          'backgroundColor': '#f8f9fa',
+          'position': 'bottom'
  };
 
   // Display the chart inside the <div> element with id="piechart"
@@ -94,7 +95,7 @@ function drawChart() {
           <h2 style="color: #343A40; align-items: center; text-align: center;">Hello! Welcome to my webpage.</h2>
           <hr style="background-color: rgb(84, 250, 252); height: 2px;">
 
-          <div class="d-flex justify-content-around">
+          <div style="display: flex; justify-content: space-evenly; flex-direction: row;">
             <div id="piechart">
           
             </div>
