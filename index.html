@@ -40,7 +40,7 @@ function drawChart() {
   ]);
 
   // Optional; add a title and set the width and height of the chart
-    var options = {'title':'Interests', 'width':250, 'height':250,'slices': {
+    var options = {'title':'My Interests', 'width':400, 'height':250,'slices': {
             0: { color: 'rgb(84, 250, 252)' },
             1: { color: '#343A40' },
             2: { color: 'rgb(84, 250, 252)' },
@@ -48,7 +48,8 @@ function drawChart() {
             4: { color: '#343A40' }
           },
           'backgroundColor': '#f8f9fa',
-          'legend': {position: 'bottom'}
+          'legend': {position: 'bottom'},
+          'is3D': 'true',
  };
 
   // Display the chart inside the <div> element with id="piechart"
@@ -83,6 +84,9 @@ function drawChart() {
           <li class="nav-item">
             <a style="color: rgb(84, 250, 252);" class="nav-link" href="http://abijahford.info/blog/">Blog</a>
           </li>
+          <li class="nav-item">
+            <a style="color: rgb(84, 250, 252);" class="nav-link" href="photosofme.html">Photos</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -98,9 +102,6 @@ function drawChart() {
           <div style="display: flex; justify-content: space-evenly; flex-direction: row; align-items: center;">
             <div id="piechart">
           
-            </div>
-            <div>
-              <img src="images/afPhoto.JPG" style="object-fit:cover; " class="rounded responsive">
             </div>
           </div>
         </div>
