@@ -80,6 +80,16 @@ ul {
   color: inherit;
 }
 
+.project-container {
+  padding: 3em;
+  display: grid;
+  grid-gap: 2em;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+.card {
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
+}
+
 @media screen and (max-width: 767px) {
   .photo-gallery h2 {
     margin-bottom: 25px;
